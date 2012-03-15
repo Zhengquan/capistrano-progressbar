@@ -10,6 +10,7 @@ Capistrano plugin that integrates Progressbar tasks into capistrano deployment s
 ## Usage
 
     # Set the variable in the deploy file
+    require 'capistrano-progressbar'
     set :task_count, '14'   #the task count to be executed
 ## Banner
 
