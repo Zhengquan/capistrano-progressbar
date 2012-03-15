@@ -23,7 +23,7 @@ Put the alias command into `~/.bashrc` or `.rvmrc`
 
     alias deploy='bunlde exec cap deploy -l "./log/capistrano.log"'
     
-Then you can use deploy to execute `cap deploy` with fire the progressbar at the terminal
+Then you can use `deploy` to execute `cap deploy` with fire the progressbar at the terminal
 
 ## Screencast
 ![Fire](http://i.imgur.com/GF6QE.jpg)
