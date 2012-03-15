@@ -25,7 +25,7 @@ Put the alias command into `~/.bashrc` or `.rvmrc`
     
 Then you can use `deploy` to execute `cap deploy` with fire the progressbar at the terminal
 
-## Screencast
+## Screenshot
 ![Fire](http://i.imgur.com/GF6QE.jpg)
 ## License
 MIT: http://rem.mit-license.org
