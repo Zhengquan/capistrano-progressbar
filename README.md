@@ -21,7 +21,7 @@ You can get more banners at [Text Ascii Art Generator](http://patorjk.com/softwa
 
 Put the alias command into `~/.bashrc` or `.rvmrc`
 
-    alias deploy='bunlde exec cap deploy -l "./log/capistrano.log"'
+    alias deploy='bundle exec cap deploy -l "./log/capistrano.log"'
     
 Then you can use `deploy` to execute `cap deploy` with fire the progressbar at the terminal
 
