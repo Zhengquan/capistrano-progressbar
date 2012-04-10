@@ -72,8 +72,15 @@ module CapistranoProgressbar
         on :after, :only => 'deploy:clean' do
           system "tput clear"
         end
-        on :after do
-          $bar.inc
+        # to remove the DEPRECATION warning message
+        if Gem::Version.new(Capistrano::Version.to_s) <= Gem::Version.new('2.11.2')
+          on :after, :except => "deploy:symlink" do
+            $bar.inc
+          end
+        else
+          on :after do
+            $bar.inc
+          end
         end
       end
     end
