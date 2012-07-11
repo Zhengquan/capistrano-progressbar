@@ -10,8 +10,8 @@ Capistrano plugin that integrates Progressbar tasks into capistrano deployment s
 ## Usage
 
     # Set the variable in the deploy file
+    set :task_count, '14'   #the count of tasks to be executed, this variable must be set before load this gem
     require 'capistrano-progressbar'
-    set :task_count, '14'   #the task count to be executed
 ## Banner
 
 Put the banner file into `config/banner` file,if the file is not existed the default banner will be used.
